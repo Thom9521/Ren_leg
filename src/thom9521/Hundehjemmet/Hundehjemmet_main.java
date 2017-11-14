@@ -1,3 +1,5 @@
+package thom9521.Hundehjemmet;
+
 public class Hundehjemmet_main {
     public static void main(String[] args) {
 

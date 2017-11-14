@@ -1,3 +1,5 @@
+package thom9521.Hundehjemmet;
+
 public class Hund {
 
 
