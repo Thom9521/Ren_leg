@@ -9,7 +9,7 @@ public class GenererPokémons extends Pokémons {
             super(navn, id, styrke, beskrivelse); }
 
             public GenererPokémons(){
-        super("Pickachu", 1, 67, "Angriber med lynkilder");
+        super("Pickachu", 1, 68, "Angriber med lynkilder");
     }
 
 
