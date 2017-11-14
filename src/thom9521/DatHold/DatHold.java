@@ -28,34 +28,26 @@ public class DatHold {
         System.out.println(navn + " med en alder på " + alder + " er blevet tilføjet til klassen og han har en IQ " +
                 "på " + iq + ".");
     }
-
-    public String getNavn(){
-        return navn;
-    }
-
-    public void setNavn(String navn){
-        this.navn = navn;
-
-    }
-
     //Getters and setter
-    public int getAlder(){
-        return alder;
-    }
+    public String getNavn(){ return navn; }
 
-    public void setAlder(int alder){
-        this.alder = alder;
-    }
+    public void setNavn(String navn){ this.navn = navn; }
 
-    public int getIq(){
-        return iq;
-    }
+    public int getAlder(){ return alder; }
 
-    public void setIq(int iq){
-        this.iq = iq;
-    }
+    public void setAlder(int alder){ this.alder = alder; }
 
+    public int getIq(){ return iq; }
+
+    public void setIq(int iq){ this.iq = iq; }
+
+
+    //Flere metoder
     public void lavLektier(){
         System.out.println(navn + " laver sine lektier til tiden.");
     }
+
+
+
+
 }
